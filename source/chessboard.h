@@ -7,7 +7,6 @@
 #include <QMouseEvent>
 #include <QMessageBox>
 #include <QDebug>
-#include "about.h"
 
 
 namespace Ui {
