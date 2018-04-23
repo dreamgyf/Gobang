@@ -1,5 +1,4 @@
 ﻿#include "chessboard.h"
-#include "judge.h"
 #include <QApplication>
 #include <QObject>
 
