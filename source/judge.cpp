@@ -48,7 +48,7 @@ Judge::Winner Judge::winner(const Chessboard &game)
 
             }
             //判断白子
-            if(game.get_info(x,y)==white)
+            if(game.get_info(x,y)==Chessboard::Chess::white)
             {
                 //判断右侧横向
                 int tempx=x;

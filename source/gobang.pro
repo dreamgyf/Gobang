@@ -26,10 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         chessboard.cpp \
-    judge.cpp
+    judge.cpp \
+    ai.cpp \
+    record.cpp
 
 HEADERS += \
-        chessboard.h
+        chessboard.h \
+    record.h
 
 FORMS += \
         chessboard.ui

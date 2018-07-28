@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>700</width>
+    <width>933</width>
     <height>700</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>700</width>
+    <width>933</width>
     <height>700</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>700</width>
-    <height>723</height>
+    <width>933</width>
+    <height>700</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -31,7 +31,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>700</width>
+     <width>933</width>
      <height>23</height>
     </rect>
    </property>
@@ -48,7 +48,29 @@
     </property>
     <addaction name="action_about"/>
    </widget>
+   <widget class="QMenu" name="menu_mode">
+    <property name="title">
+     <string>模式</string>
+    </property>
+    <addaction name="action_man_machine"/>
+    <addaction name="action_man_man"/>
+   </widget>
+   <widget class="QMenu" name="menu_option">
+    <property name="title">
+     <string>选项</string>
+    </property>
+    <addaction name="action_blackfirst"/>
+    <addaction name="action_whitefirst"/>
+   </widget>
+   <widget class="QMenu" name="menu_difficulty">
+    <property name="title">
+     <string>难度</string>
+    </property>
+   </widget>
    <addaction name="menu"/>
+   <addaction name="menu_mode"/>
+   <addaction name="menu_option"/>
+   <addaction name="menu_difficulty"/>
    <addaction name="menu_about"/>
   </widget>
   <action name="action_close">
@@ -64,6 +86,38 @@
   <action name="action_new">
    <property name="text">
     <string>开始新游戏</string>
+   </property>
+  </action>
+  <action name="action_man_machine">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>人机对战</string>
+   </property>
+  </action>
+  <action name="action_man_man">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>人人对战</string>
+   </property>
+  </action>
+  <action name="action_blackfirst">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>黑方先手</string>
+   </property>
+  </action>
+  <action name="action_whitefirst">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>白方先手</string>
    </property>
   </action>
  </widget>
